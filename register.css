@@ -1,0 +1,78 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin: 0; */
+
+}
+*{
+    margin: 0;
+    /* padding: 0; */
+}
+/* -------------------------------------------------Header */
+
+header{
+    
+    height: 124px;
+    width: 100%;
+    background-color: black;
+}
+header .header_logo{
+    position: absolute;
+    top: 34px;
+    left: 10px;
+    height: 50px;
+}
+
+header .header_create_your_account{
+    position: absolute;
+    height: 7%;
+    width: 159px;
+    top: 45px;
+    left: 1114px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+}
+header .header_create_your_account:hover{
+    background-color: blue;
+}
+header .header_create_your_account:active{
+    background-color: red;
+}
+ 
+
+/* ==============================================================MAIN */
+main{
+    background-color: pink;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 124px;
+    background-image: url(images/couple4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+main .registration_form{
+    position: absolute;
+    left: 50px;
+    height: 70%;
+    width: 35%;
+    top: 32px;
+    background-color: black;
+    border-radius: 10px;
+    opacity: 0.8;
+    /* border: solid yellow; */
+}
+main .registration_form .final_register{
+    background-color: darkred;
+    color: white;
+    border-radius: 10px;
+}
+
+main .registration_form .final_register:hover{
+    background-color: red;
+}
+main .registration_form .final_register:active{
+    background-color: darkred;
+}

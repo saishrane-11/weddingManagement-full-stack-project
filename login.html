@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unicorn | Plan Your Wedding</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        header .login{
+            position: absolute;
+            top: 62px;
+            left: 772px;
+            height: 256px;
+            width: 480px;
+            background-color: #f1e3e375;
+            border-radius: 20px;
+        }
+        #username{
+            width: 326px;
+            position: absolute;
+            top: 44px;
+            left: 74px;
+            height: 41px;
+            border-radius: 32px;
+            background: #f1eded9c;
+        }
+        #password{
+            width: 326px;
+            position: absolute;
+            top: 118px;
+            left: 74px;
+            height: 41px;
+            border-radius: 32px;
+            background: #f1eded9c;
+        }
+        #login_but01{
+            width: 216px;
+            position: absolute;
+            top: 182px;
+            left: 134px;
+            height: 41px;
+            border-radius: 11px;
+            background: darkred;
+            color: white;
+        }
+        #login_but01:hover{
+            background-color: red;
+        }
+        #login_but01:active{
+            background-color: darkred;
+        }
+        #close_button01{
+            position: absolute;
+            top: 10px;
+            left: 444px;
+            border-radius: 28px;
+            height: 25px;
+            width: 25px;
+            background-color: darkred;
+        }
+        #close_button01:hover{
+            background-color: red;
+        }
+        #close_button01:active{
+            background-color: darkred;
+        }
+    </style>
+</head>
+<body>
+    
+            <header>
+                <div class="main">
+                    <img src="images/topImage.jpg" alt="" srcset="" >
+                    <div class="logo">
+                        <img src="https://www.designfreelogoonline.com/wp-content/uploads/2017/02/000616-Free-logo-maker-Event-planner-Logo-02.png" alt="Logo" srcset="" title="logo" >
+                    </div>
+                    <div class="login_register">
+                        <button class="login" title="Login" style="position: absolute;top: 2px;">Login</button>
+                        <button class="register" title="Register" onclick="open_register()">Register</button>
+                    </div>
+                    <div class="main_text">
+                        <h1>Plan Your Wedding Here...</h1>
+                    </div>
+                </div>
+                <div class="login">
+                    <label for="login_but">
+                    <input type="text" name="" id="username" placeholder="    phone number,email">
+                    <input type="password" name="" id="password" placeholder="    password">
+                    <input type="button" value="Login" id="login_but01" onclick="open_home()">
+                    <input type="button" value="X" name="close" id="close_button01" onclick="open_main_page()">
+                    </label>
+                </div>
+            </header>
+            <main>
+                <div class="main2">
+                    <h2 class="text_details0">----- Millions of People Plan there Wedding Here -----</h2>
+                    <div class="main2a">
+                        <img src="images/people.png" alt="" id="peoples">
+                        <img src="images/education.png" alt="" srcset="" id="education">
+                        <img src="images/expert6.png" alt="" srcset="" id="experts">
+                        <span id="pep">Millions of peoples have final there<br>Wedding plan here and make there <br> wedding memorable and more special.</span>
+                        <br><br>
+                        <span id="edu">90% of our members are highly educated<br>Most of them are succssful professional in<br>their selected fields.</span>
+                        <br><br>
+                        <span id="exp" style="margin: 0;">Marriage.com provides a smart mechanism to<br>to finalise your wedding alsowith expert's help you<br>may get your dream wedding spot in affordable prices.</span>
+                    </div>
+                    <h2 class="text_details1">Browse More Details.</h2>
+                    <div class="main2b">
+                        <a href="#"><img src="images/locationIcon2.jpg" alt="Location Icon" srcset="" id="loc"></a>
+                        <a href="#"><img src="images/package.png" alt="Package" srcset="" id="pac"></a>
+                        <ul class="list_location">
+                            <li>Location of offices in the country.</li>
+                            <li><a href="#">Click here</a> to know more.</li>
+                        </ul>
+                        <ul class="list_package">
+                            <li>Full Wedding package is available. <br> cameraman | Hall | Priest</li>
+                            <li><a href="#">Click here</a> to know more.</li>
+                        </ul>
+                    </div>
+                    <div class="main2c">
+                        <a href="https://blog.shadi.com/6-tips-to-follow-if-you-dont-want-to-be-single-anymore/"><img src="images/relationship_advise.jpg" alt="Relationship Advise" srcset="" id="relationship_advise"></a>
+                        <img src="images/professional.jpg" alt="Professional" srcset="" id="professional">
+                        <img src="images/convince.jpg" alt="convince" srcset="" id="convince">
+                        <h4 id="rd"><i>Relationship Advise</i></h4>
+                        <h4 id="prof"><i>Professional Advise</i></h4>
+                        <h4 id="conv"><i>Convincing Strategy</i></h4>
+                    </div>
+                    <h2 class="text_details2">MEET OUR MEMBERS - SUCCESSFUL
+                        PROFESSIONAL SINGLES</h2>
+                    <div class="main2d">
+                        <img src="images/prof2.png" alt="" srcset="" id="prof2">
+                        <br><br>
+                        <span id="succ_prof">We have members from all religions and ages. Our most popular age <br>      group is from 27 - 60. Almost all our singles are successful <br> professionals and businessmen. Creating a great profile is essential in <br> online matchmaking and adding your best photo to your profile. <br> We offer abundant tips and relationship advice through our blogs. <br>It is our passion to help you in the best possible way.</span>
+                    </div>
+                    <div class="main2e">
+                        <h2 class="rev">Review</h2>
+                        <div class="review1">
+                            <pre>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis<br>reprehenderit veniam sit praesentium facilis fugiat voluptatum accusantium <br>mollitia suscipit, error cupiditate id consequatur deleniti porro. <br><b>-SRK</b>  </pre>
+                            
+                            <pre>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis<br>reprehenderit veniam sit praesentium facilis fugiat voluptatum accusantium <br>mollitia suscipit, error cupiditate id consequatur deleniti porro. <br><b>-Kajol Devgan</b>  </pre>
+                            
+                            <pre>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis<br>reprehenderit veniam sit praesentium facilis fugiat voluptatum accusantium <br>mollitia suscipit, error cupiditate id consequatur deleniti porro. <br><b>-Amir Khan</b>  </pre>
+                        </div>
+                        <div class="review2">
+                            <pre>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis<br>reprehenderit veniam sit praesentium facilis fugiat voluptatum accusantium <br>mollitia suscipit, error cupiditate id consequatur deleniti porro. <br><b>-Hritik Roshan</b>  </pre>
+                            
+                            <pre>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis<br>reprehenderit veniam sit praesentium facilis fugiat voluptatum accusantium <br>mollitia suscipit, error cupiditate id consequatur deleniti porro. <br><b>-Alia Bhutt</b>  </pre>
+                            
+                            <pre>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis<br>reprehenderit veniam sit praesentium facilis fugiat voluptatum accusantium <br>mollitia suscipit, error cupiditate id consequatur deleniti porro. <br><b>-Priyanka Jonas</b>  </pre>
+                        </div>
+                    </div>
+                </div>
+            </main>
+            <footer>
+                <div class="footer_main">
+                    <div class="footer_down">
+                        <h2>Follow us on: </h2>
+                        <a href="https://www.instagram.com/virat.kohli/?hl=en" target="_blank">
+                        <span><img src="https://www.shadi.com/assets/images/instagram-logo-35x35.png" class="insta"alt="facebook"></span>
+                        </a>
+                        <a href="https://www.facebook.com/virat.kohli/" target="_blank">
+                        <span><img src="https://www.shadi.com/assets/images/fb-logo-35x35.png" class="facebook" alt="instagram" srcset=""></span>
+                        </a>
+                        
+                        <a href="https://twitter.com/imVkohli?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank ">
+                        <span><img src="https://www.shadi.com/assets/images/twitter-logo-35x35.png" class="twitter" alt="twitter" srcset="">  </span>
+                        </a>
+
+                        <img src="https://www.designfreelogoonline.com/wp-content/uploads/2017/02/000616-Free-logo-maker-Event-planner-Logo-02.png" alt="Logo" srcset="" title="logo" id="footer_logo" title="logo">
+                    </div>
+                    <div class="footer_up">
+                        <h2>MARRIAGE.COM | PLAN YOUR MARRIAGE HERE</h2>
+                        <p style="position: absolute;top: 60px;left: 58px;text-align: left;">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure quo ratione at nemo, atque sint Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, a ullam voluptatum cupiditate i <br>ipsum Lorem dolor sit, amet consectetur adipisicing elit. Iure quo ratione at nemo, atque sint Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, a ullam voluptatum <br>dolor Lorem ipsum sit, amet consectetur adipisicing elit. Iure quo ratione at nemo, atque sint Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, a ullam voluptatum cupidita<br>amet Lorem ipsum dolor sit, consectetur adipisicing elit. Iure quo ratione at nemo, atque sint Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, a ullam volupta</p>
+                        <br>
+                        <div class="footer_up-01">
+                            <a href="#" style="text-decoration: none;"  ><h5>ABOUT US</h5></a>
+                            <p class="footer_content_left">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, quos? Sit dolorum, fugiat beatae ad delectus culpa magni voluptatum eum voluptas tempore odio mollitia in cumque veritatis rem accusantium tenetur.</p>
+                        </div>
+                        <div class="footer_up-02">
+                            <a href="#" style="text-decoration: none;"><h5>NEED HELP?</h5></a>
+                            <p class="footer_content_mid">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium aliquam repellendus dolor beatae nesciunt deleniti esse exercitationem tempora, voluptas iusto. Tenetur, eligendi accusamus temporibus rerum minus saepe qui corrupti assumenda!</p>
+                        </div>
+                        <div class="footer_up-03">
+                            <a href="#" style="text-decoration: none;"><h5>MORE</h5></a>
+                            <p class="footer_content_right">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis nesciunt quae dolores impedit modi! Provident laboriosam dolores quasi totam porro. Voluptatibus veniam harum aliquam porro iusto placeat temporibus atque facere.</p>
+                        </div>
+                        <!-- moving up button without scrolling -->
+                        <a href="#">
+                        <div class="footer_up-04">
+                            <img src="https://www.clipartmax.com/png/middle/13-131633_mono-button-fewer-clipart-icon-png-up-arrow-transparent-background.png" alt="" srcset="">
+                        </div>
+                    </a>
+                    </div>
+                </div>
+            </footer>
+            <script src="index.js"></script>
+            
+</body>
+</html>
+
+    

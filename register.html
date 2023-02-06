@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="register.css">
+</head>
+<body>
+    <header>
+        <img src="https://www.designfreelogoonline.com/wp-content/uploads/2017/02/000616-Free-logo-maker-Event-planner-Logo-02.png" alt="logo" class="header_logo"  srcset="">
+
+        <button class="header_create_your_account" onclick="open_login_page()">Login existing member</button>
+        <button class="goback_fromregister" onclick="open_main_page()"    style="position: relative;left: 1px;top: 1px;">back</button>
+    </header>
+    <main>
+        <form action="/myaction.php" name="myForm" onsubmit="return validateForm()" method="post">
+            <div class="registration_form">
+                <b style="position: absolute;color: white;left: 10px;top: 10px;font-size: 32px;">Registeration Form</b>  <br>
+                
+                <label for="name" style="position: absolute; top: 54px; left: 10px;">
+                    <b style="color: white;">First Name:</b> <br>
+                    <input type="text" name="fname" placeholder="Enter your first name">
+                </label>
+                <label for="Last Name" style="position: absolute; top: 102px; left: 10px;">
+                    <b style="color: white;">Last Name:</b> <br>
+                    <input type="text" name="lname" placeholder="Enter your last name" >
+                </label>
+                <label for="DOB" style="position: absolute; top: 150px; left: 10px;">
+                    <b style="color: white;">Date Of Birth:</b> <br>
+                    <input type="date" name="DOB" >
+                </label>
+                <label for="country" style="position: absolute; top: 200px; left: 10px;">
+                    <b style="color: white;">Country:</b> <br>
+                    <select name="country" id="">
+                        <option value="India" name="India">--select a country--</option>
+                        <option value="India" name="India">India</option>
+                        <option value="India" name="India">India</option>
+                        <option value="India" name="India">India</option>
+                        <option value="India" name="India">India</option>
+                        <option value="India" name="India">India</option>
+                        
+                    </select>
+                </label>
+                <label for="state" style="position: absolute; top: 250px; left: 10px;">
+                    <b style="color: white;">State:</b> <br>
+                    <select name="state" id="">
+                        <option value="India" name="India">--select a country--</option>
+                        <option value="India" name="India">Maharashtra</option>
+                        <option value="India" name="India">Uttar Pradesh</option>
+                        <option value="India" name="India">India</option>
+                        <option value="India" name="India">India</option>
+                        <option value="India" name="India">India</option>
+                        
+                    </select>
+                </label>
+                <label for="email" style="position: absolute; top: 300px; left: 10px;">
+                    <b style="color: white;">Email:</b> <br>
+                    <input type="email" name="email" placeholder="Enter your email">
+                </label>
+                <label for="email" style="position: absolute; top: 350px; left: 10px;">
+                    <b style="color: white;">Password:</b> <br>
+                    <input type="text" name="phone_no" placeholder="Enter your Phone no.">
+                </label>
+                <label for="register" style="position: absolute; top: 400px; left: 10px;" >
+                    <input type="submit" value="Register" name="register" class="final_register" style="height: 30px;">
+                </label>
+            </div>
+        </form>
+    </main>
+    <footer>
+
+    </footer>
+    <script src="index.js"></script>
+    <script>
+        function seterror(id, error){
+            //sets error inside tag of id
+        }
+
+        function validateForm(){
+            var name = document.forms['myForms']["fname"].value;
+            console.log('name');
+            return false;
+
+
+        }
+    </script>
+    
+</body>
+</html>

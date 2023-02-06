@@ -1,0 +1,104 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin: 0; */
+
+}
+*{
+    margin: 0;
+    /* padding: 0; */
+}
+/* -------------------------------------------------Header */
+
+header{
+    
+    height: 124px;
+    width: 100%;
+    background-color: black;
+}
+header .header_logo{
+    position: absolute;
+    top: 34px;
+    left: 10px;
+    height: 50px;
+}
+
+li{
+    display: inline;
+    color: white;
+    padding: 50px;
+    font-size: 24px;
+}
+li:hover{
+    color: red;
+}
+li:active{
+    color: darkred;
+}
+header .all_header_option{
+    position: absolute;
+    top: 88px;
+    left: 8%;
+    height: 40px;
+    width: 1145px;
+}
+header .user_image img{
+    border-radius: 59px;
+    position: absolute;
+    top: 32px;
+    left: 1261px;
+    height: 50px;
+    width: 50px;
+    border: solid white;
+}
+header .user_image img:hover{
+    border-color: darkred;
+}
+header .user_image #user_image_button{
+    position: absolute;
+    top: 54px;
+    left: 1321px;
+    height: 12px;
+    width: 19px;
+}
+
+
+/* ====================================================MAIN */
+main{
+    position: absolute;
+    top: 124px;
+    height: 100%;
+    width: 100%;
+    /* background-color: white; */
+    background-image: linear-gradient(orange , gold);
+}
+
+
+
+
+/* ====================================================FOOTER */
+
+
+footer{
+    position: absolute;
+    top: 1020px;
+    height: 30%;
+    width: 100%;
+    background-color: darkslategray;
+}
+
+footer .footer_left{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    height: 78px;
+    width: 176px;
+    padding: 36px;
+}
+footer .footer_left .foot_logo{
+    position: absolute;
+    height: 56%;
+    left: 1096px;
+    top: 44px;
+}
